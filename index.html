@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamPirate</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho e Menu de Navegação -->
+    <header>
+        <div class="logo">
+            <h1>DreamPirate</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+                <li><a href="#pesquisa">Pesquisa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Hero com Efeitos Visuais -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Bem-vindo ao DreamPirate</h2>
+            <p>Explore filmes, séries, músicas, livros e softwares com animações e efeitos incríveis.</p>
+            <a href="#categorias" class="btn-hero">Explorar</a>
+        </div>
+    </section>
+
+    <!-- Seção de Categorias com Animações -->
+    <section id="categorias" class="categories">
+        <h2>Categorias</h2>
+        <div class="category-list">
+            <div class="category-item" id="filmes">
+                <h3>Filmes</h3>
+                <p>Encontre os melhores filmes gratuitos!</p>
+            </div>
+            <div class="category-item" id="series">
+                <h3>Séries</h3>
+                <p>Assista às suas séries favoritas.</p>
+            </div>
+            <div class="category-item" id="livros">
+                <h3>Livros</h3>
+                <p>Explore e-books e clássicos da literatura.</p>
+            </div>
+            <div class="category-item" id="musica">
+                <h3>Música</h3>
+                <p>Ouça álbuns completos e singles gratuitos.</p>
+            </div>
+            <div class="category-item" id="software">
+                <h3>Software</h3>
+                <p>Baixe software de código aberto e gratuito.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Pesquisa -->
+    <section id="pesquisa" class="search-section">
+        <h2>Pesquisa de Arquivos</h2>
+        <input type="text" id="search-input" placeholder="Pesquisar arquivos..." />
+        <button id="search-btn">Buscar</button>
+
+        <!-- Resultados da Pesquisa -->
+        <div id="search-results" class="search-results"></div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Arquivos Pirateados. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Scripts Externos -->
+    <script src="script.js"></script>
+</body>
+</html>
